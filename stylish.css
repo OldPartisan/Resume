@@ -104,6 +104,38 @@ div#resume img {
   border-radius: 220px;
 }
 
+div#forma {
+  font: 14px Helvetica, sans-serif;
+  color: #000;
+  margin: 0 0 6px 0;
+  position: relative;
+}
+
+.box {
+  display: inline-block;
+}
+
+.box input {
+  margin-right: 20px;
+  height: 30px;
+  width: 275px;
+}
+
+.box label {
+  margin-right: 5px;
+}
+
+.btn {
+  background-color: #999;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 1100px) {
   div#resume h2 span {
     position: static;
